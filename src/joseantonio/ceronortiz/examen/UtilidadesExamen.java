@@ -6,7 +6,7 @@ public class UtilidadesExamen {
 
 	public static int[] creaArray() {
 		Scanner scan = new Scanner(System.in);
-		System.out.println("Indique la cantidad de numeros que va ingresar:");
+		System.out.println("Indique la cantidad de números que va ingresar:");
 		int tamanyo = scan.nextInt();
 		int[] numeros = new int[tamanyo];
 		for (int i = 0; i < numeros.length; i++) {

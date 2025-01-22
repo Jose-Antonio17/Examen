@@ -20,8 +20,8 @@ public class Examen {
 		System.out.println("---------------------");
 		System.out.println("Número mayor y menor de los números introducidos:");
 		int[] extremos = UtilidadesExamen.encontrarExtremos(numerosLista);
-		System.out.println("El numero mayor es " + extremos[0]);
-		System.out.println("El numero menor es " + extremos[1]);
+		System.out.println("El número mayor es " + extremos[0]);
+		System.out.println("El número menor es " + extremos[1]);
 
 		System.out.println("---------------------");
 		System.out.println("Números mayores de la media");
